@@ -6,6 +6,7 @@ body, html {
 	font-weight: 300;
 	width: 100% !important;
 	height: 100% !important;
+	/* overflow-x: hidden; */
 }
 .logo{
 	height: 50px;
@@ -94,6 +95,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Navigation */
 #menu {
+	width: 100vw;
 	padding: 20px;
 	transition: all 0.8s;
 }
@@ -675,4 +677,9 @@ color: #777;
 }
 .getlocact h1{
 	font-weight: 600;
+}
+@media(max-width:768px){
+	.getlocact{
+
+	}
 }
