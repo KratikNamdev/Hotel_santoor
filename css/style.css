@@ -41,7 +41,7 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #8eb640;
+	color: #b69967;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -287,7 +287,7 @@ header .intro-text {
 	padding: 0 0 60px 0;
 }
 #restaurant-menu .section-title {
-	background: #444 url(../Assets/par.jpeg) center center no-repeat fixed;
+	background: #444 url(../Assets/restr\ \(1\).jpeg) center center no-repeat fixed;
 	background-size: cover;
 }
 #restaurant-menu .section-title h2 {
@@ -340,7 +340,7 @@ header .intro-text {
 	padding: 0 0 120px 0;
 }
 #portfolio .section-title {
-	background: #444 url(../Assets/par.jpeg) center center no-repeat fixed;
+	background: #444 url(../Assets/restr\ \(1\).jpeg) center center no-repeat fixed;
 	background-size: cover;
 	margin-bottom: 50px;
 }
@@ -662,4 +662,17 @@ color: #777;
 .map iframe{
 	width: 100%;
 	height: 100%;
+}
+.getlocact{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+.getlocact i{
+	font-size: 50px;
+}
+.getlocact h1{
+	font-weight: 600;
 }
