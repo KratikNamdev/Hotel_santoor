@@ -98,6 +98,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100vw;
 	padding: 20px;
 	transition: all 0.8s;
+	background-color: #262626 !important;
 }
 #menu.navbar-default {
 	background-color: rgba(248, 248, 248, 0);
