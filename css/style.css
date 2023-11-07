@@ -6,8 +6,75 @@ body, html {
 	font-weight: 300;
 	width: 100% !important;
 	height: 100% !important;
-	/* overflow-x: hidden; */
+	overflow-x: hidden;
 }
+
+.cont{
+    height: 100vh;
+    width: 100vw;
+   
+    display: flex;
+}
+.bg{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url("../Assets/hotel.jpeg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slider{
+    width: 60%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+swiper-cont {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media(max-width:768px){
+    .cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .bg{
+        width: 100%;
+        height: 100%;
+        background-color:pink;
+    }
+    .slider{
+        width: 100%;
+        height: 100%;
+        background-color: red;
+    }
+  }
+
+
+
+
+
+
+
+
+
 .logo{
 	height: 50px;
 }
