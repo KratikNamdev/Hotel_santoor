@@ -202,17 +202,35 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .whatsapp{
 	position: fixed;
-	top: 600px;
-	margin-left: -300px;
+	top: 500px;
+	margin-left: -400px;
 	height: 60px;
 	width: 60px;
+}
+@media(max-width:550px){
+	.whatsapp{
+		position: fixed;
+		top: 750px;
+		margin-left: -400px;
+		height: 60px;
+		width: 60px;
+	}
+}
+@media(max-width:500px){
+	.whatsapp{
+		position: fixed;
+		top: 550px;
+		margin-left: -400px;
+		height: 60px;
+		width: 60px;
+	}
 }
 @media(max-width:786px){
 	.whatsapp{
 		margin-left: 10px;
 	}
 }
-.on {
+.on{
 	background-color: #262626 !important;
 	padding: 0 !important;
 	padding: 10px 0 !important;
