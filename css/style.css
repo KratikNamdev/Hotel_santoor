@@ -62,12 +62,12 @@ swiper-cont {
     .bg{
         width: 100%;
         height: 100%;
-        background-color:pink;
+        /* background-color:pink; */
     }
     .slider{
         width: 100%;
         height: 100%;
-        background-color: red;
+        /* background-color: red; */
     }
   }
 
