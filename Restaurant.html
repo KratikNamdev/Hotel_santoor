@@ -88,6 +88,50 @@ centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="fa
 
   </div>
 </div>
+<br/>
+<br/>
+
+
+
+<div class="photo-grid" id="photoGrid">
+  <!-- Your photos go here -->
+  <div class="photo" onclick="openModal('./Assets/R1 (1).jpeg')">
+    <img src="./Assets//R1 (1).jpeg" alt="Photo 2">
+
+  </div>
+  <div class="photo" onclick="openModal('./Assets/R1.jpeg')">
+    <img src="./Assets/R1.jpeg" alt="Photo 1">
+  </div>
+
+
+  <div class="photo" onclick="openModal('./Assets/R1 (3).jpeg')">
+    <img src="./Assets//R1 (3).jpeg" alt="Photo 2">
+
+  </div>
+  <div class="photo" onclick="openModal('./Assets/R1 (4).jpeg')">
+    <img src="./Assets//R1 (4).jpeg" alt="Photo 2">
+
+  </div>
+  <div class="photo" onclick="openModal('./Assets/R1 (5).jpeg')">
+    <img src="./Assets//R1 (5).jpeg" alt="Photo 2">
+
+  </div>
+  <div class="photo" onclick="openModal('./Assets/R1 (6).jpeg')">
+    <img src="./Assets//R1 (6).jpeg" alt="Photo 2">
+
+  </div>
+  <div class="photo" onclick="openModal('./Assets/R1 (7).jpeg')">
+    <img src="./Assets//R1 (7).jpeg" alt="Photo 2">
+
+  </div>
+
+</div>
+
+<!-- Modal for displaying the clicked image -->
+<div id="modal" onclick="closeModal()">
+  <img id="modalImage" src="" alt="Clicked Image">
+</div>
+
 
 
 
@@ -144,6 +188,16 @@ centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="fa
     </div>
   </div>
 </div>
+<script>
+  function openModal(imageSrc) {
+    document.getElementById('modalImage').src = imageSrc;
+    document.getElementById('modal').style.display = 'flex';
+  }
+
+  function closeModal() {
+    document.getElementById('modal').style.display = 'none';
+  }
+</script>
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
@@ -172,6 +226,7 @@ centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="fa
            },
        });
    </script>
+
     
 </body>
 </html>
